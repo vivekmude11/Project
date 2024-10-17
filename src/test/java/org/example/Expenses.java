@@ -55,16 +55,6 @@ public class Expenses {
             WebElement uploadButton = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//button[@id='open-button']"))); // Replace with actual button XPath
             uploadButton.click();
 
-
-
-
-
-
-
-
-
-
-
             Thread.sleep(5000);
 
         } catch (Exception e) {
