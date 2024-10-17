@@ -76,4 +76,7 @@ public class Expenses {
             }
         }
     }
+
+    public static class Practice2 {
+    }
 }
