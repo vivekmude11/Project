@@ -49,7 +49,6 @@ public class Expenses {
             elementToClick.click();
             WebElement fileInput = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//p[@class='ant-upload-hint']")));
             fileInput.click();
-            // Specify the file path you want to upload (make sure the path is correct)
             String filePath = Paths.get("/Users/zaggle/Downloads/Image (9).png.txt").toAbsolutePath().toString(); // Update the file path
             fileInput.sendKeys(filePath);
             WebElement uploadButton = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//button[@id='open-button']"))); // Replace with actual button XPath
